@@ -18,13 +18,13 @@ Rather than emphasizing model novelty, the focus is placed on the **data enginee
 
 The repository is organized into a small set of focused notebooks, each serving a distinct role in the overall workflow:
 
-- **📘 `00_preface_and_context.ipynb`**  
+- **`00_Preface_and_Context.ipynb`**  
   Introduces the biological, business, and machine learning context for soft sensor development in bioprocessing.
 
-- **🛠️ `01_data_engineering_pipeline.ipynb`**  
+- **`01_Data_Engineering_Pipeline.ipynb`**  
   Exploratory analysis, visualization, and construction of a reproducible data processing pipeline for batch-wise bioprocess data.
 
-- **🤖 `02_soft_sensor_modeling.ipynb`**  
+- **`02_Soft_Sensor_Modeling.ipynb`**  
   Application of machine learning models to the processed data, with discussion of soft sensor deployment and digital twin integration.
 
 Readers primarily interested in implementation may proceed directly to the data engineering notebook. Readers seeking motivation and context are encouraged to begin with the preface.
@@ -46,9 +46,9 @@ Readers primarily interested in implementation may proceed directly to the data 
 
 This project uses **IndPenSim**, a synthetic industrial penicillin fermentation simulator commonly used for academic research and education. The simulator generates realistic batch bioprocess data, including process variables, analytical measurements, and product titer, while avoiding the confidentiality constraints associated with proprietary industrial datasets.
 
-The IndPenSim simulator and example datasets are available at:
+More information is available at:
 
-- https://github.com/act-ehu/indpensim
+- http://www.industrialpenicillinsimulation.com/
 
 ### Citation
 
@@ -75,5 +75,5 @@ Raw data files are **not included** in this repository. Users are expected to ge
 ## Author
 
 **Wilton Phung**  
-M.Eng. Biopharmaceutical Processing  
-Keck Graduate Institute
+*Master of Engineering in Biopharmaceutical Processing*  
+Student at the Keck Graduate Institute
