@@ -1,0 +1,15 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/intermediate/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
